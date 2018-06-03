@@ -10,6 +10,7 @@ import { toggleMobile } from '../actions/menu';
 const style = theme => ({
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
+    top: '0',
   },
   navIconHide: {
     [theme.breakpoints.up('md')]: {
